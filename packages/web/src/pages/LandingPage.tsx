@@ -253,9 +253,8 @@ const LandingPage: React.FC = () => {
 
   return (
     <div className="pb-24">
-      <div className="bg-aws-squid-ink flex flex-col items-center justify-center px-3 py-5 text-xl font-semibold text-white lg:flex-row">
-        <AwsIcon className="mr-5 size-20" />
-        ではじめる生成 AI
+      <div className="bg-sky-500 flex flex-col items-center justify-center px-3 py-5 text-xl font-semibold text-white lg:flex-row">
+        ArcLab Generative AI Platform
       </div>
 
       <div className="mx-3 mb-6 mt-5 flex flex-col items-center justify-center text-xs lg:flex-row">
