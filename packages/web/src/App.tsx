@@ -179,7 +179,7 @@ const App: React.FC = () => {
   return (
     <div className="screen:w-screen screen:h-screen overflow-x-hidden">
       <main className="flex-1">
-        <header className="bg-aws-squid-ink visible flex h-12 w-full items-center justify-between text-lg text-white lg:invisible lg:h-0 print:hidden">
+        <header className="arc-blue visible flex h-12 w-full items-center justify-between text-lg text-black lg:invisible lg:h-0 print:hidden">
           <div className="flex w-10 items-center justify-start">
             <button
               className="focus:ring-aws-sky mr-2 rounded-full  p-2 hover:opacity-50 focus:outline-none focus:ring-1"

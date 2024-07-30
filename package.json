@@ -29,5 +29,9 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.1661.0",
+    "jq": "^1.7.2"
+  }
 }

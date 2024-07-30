@@ -18,6 +18,7 @@ export default {
         'aws-smile': '#ff9900',
         'aws-font-color': '#232F3E',
         'aws-ml': '#01A88D',
+        'arc-blue': '0FBDE9',
       },
       screens: {
         print: { raw: 'print' },

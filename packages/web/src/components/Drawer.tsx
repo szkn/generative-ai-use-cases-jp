@@ -130,7 +130,7 @@ const Drawer: React.FC<Props> = (props) => {
   return (
     <>
       <nav
-        className={`bg-aws-squid-ink flex h-screen w-64 flex-col justify-between text-sm text-white  print:hidden`}>
+        className={`bg-light-green flex h-screen w-64 flex-col justify-between text-sm text-black print:hidden`}>
         <div className="text-aws-smile mx-3 my-2 text-xs">
           ユースケース <span className="text-gray-400">(生成 AI)</span>
         </div>
@@ -171,7 +171,7 @@ const Drawer: React.FC<Props> = (props) => {
         <ExpandableMenu title="会話履歴" className="mx-3 my-2 text-xs">
           <div className="relative mb-2 ml-2 mr-1 w-full pl-1.5 pr-7 pt-1">
             <input
-              className="bg-aws-squid-ink h-7 w-full rounded-full border border-white pl-8 text-sm text-white focus:border-white focus:ring-0"
+              className="arc-blue flex h-screen w-64 flex-col justify-between text-sm text-black print:hidden"
               type="text"
               value={searchQuery}
               placeholder="件名で検索"
@@ -179,7 +179,7 @@ const Drawer: React.FC<Props> = (props) => {
                 setSearchQuery(event.target.value ?? '');
               }}
             />
-            <PiMagnifyingGlass className="bg-aws-squid-ink absolute left-1.5 top-1 size-7 rounded-l-full border border-white p-1.5" />
+            <PiMagnifyingGlass className="arc-blue absolute left-1.5 top-1 size-7 rounded-l-full border border-black/30 p-1.5 text-black" />
           </div>
           <div className="scrollbar-thin scrollbar-thumb-white ml-2 mr-1 h-full overflow-y-auto">
             <ChatList className="mr-1" searchWords={searchWords} />
